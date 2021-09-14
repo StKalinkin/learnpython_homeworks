@@ -17,13 +17,13 @@
 
 def main(line1, line2):
     if (type(line1) != str or type(line2) != str):
-        return print('0')
+        print('0')
     elif line1 == line2:
-        return print("1")
+        print("1")
     elif line1 != line2 and len(line1) > len(line2):
-        return print("2")
+        print("2")
     elif line1 != line2 and line2 == "learn":
-        return print("3")
+        print("3")
     else:
         print("")
 
