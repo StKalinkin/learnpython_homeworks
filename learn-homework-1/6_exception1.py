@@ -11,8 +11,8 @@
 """
 
 def hello_user():
-    hello = input("How are you? ")
     while True:
+        hello = input("How are you? ")
         try:
             hello == "Fine"
             print("Ok, I'm glad")
