@@ -16,9 +16,9 @@ def main(line1, line2):
         print('0')
     elif line1 == line2:
         print("1")
-    elif line1 != line2 and len(line1) > len(line2):
+    elif len(line1) > len(line2):
         print("2")
-    elif line1 != line2 and line2 == "learn":
+    elif line2 == "learn":
         print("3")
     else:
         print("")

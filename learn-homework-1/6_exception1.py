@@ -14,11 +14,12 @@ def hello_user():
     while True:
         hello = input("How are you? ")
         try:
-            hello == "Fine"
-            print("Ok, I'm glad")
-
+            if hello == "Fine":
+                print("Bye!")
+                break
+            else:
+                print(hello)
         except KeyboardInterrupt:
-            print("Bye!")
-        break
+            print(hello)
 
 hello_user()
